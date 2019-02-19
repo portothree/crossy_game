@@ -23,6 +23,8 @@ while not is_game_over:
 
     print(event)
 
+    pygame.draw.rect(game_screen, BLACK_COLOR, [400, 400, 100, 100])
+
     pygame.display.update()
     clock.tick(TICK_RATE)
 
